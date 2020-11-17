@@ -1,0 +1,186 @@
+echo Hello world
+echo "Hello ; hello2"
+echo `date`
+echo $SHELL
+echo "$SHELL"
+printenv
+echo `echo $(date)`
+$(date)
+echo "hello\
+great\
+world"
+echo this \; echo that
+cat /proc/cpuinfo
+cd Data/shell
+cd ../../
+cd Data/shell
+exit
+cd Data/shell
+cat -n Text_example.txt
+cd
+ls
+cd anaconda3
+ls
+ls -s
+cd
+ls
+ls -a
+ls -la
+ls -aS
+ls -S
+ls -Sl
+ls -r
+ls -ar
+mkdir first_dir
+ls
+cd first_dir
+mkdir text_file.txt
+ls
+ls -l text_file.txt
+chmod u+e,g+e,o+w text_file.txt
+chmod u+x,g+x,o+e text_file.txt
+mkdir -p first_dir/sub1/sub2/text_file
+ls
+cd
+rm first_dir
+rm -r first_dir
+ls
+exit
+ls
+pwd
+mkdir git
+ls
+cd git
+echo "# shell" >> README.md
+ls
+cat README.md
+git init
+git config --get user.name
+git config --global user.name "Maria Casquero"
+git config --global user.email "mc@@some.com"
+ll
+pwd
+git add README.md
+ls -lrt
+git status
+git commit -m "first commit adding README.md"
+git remote add origin https://github.com/mcasquero/shell.git
+git push -u origin master
+git push -u origin master 
+vim README.md
+cd
+cd opentraveldata
+cd data
+ls
+ls Data
+ls Data/opentraveldata
+ll
+ls Data/shell
+less Finn.txt
+cd Data/shell
+less Finn.txt
+cd
+cd Data/opentraveldata
+ls
+less optd_por_public.csv
+cd
+whoami
+which python
+which ll
+which ls -lrt
+which export
+locate air
+gedit .history
+exit
+echo @Hola mundo@ > pp.txt
+head pp.txt
+echo echo "Hola mundo" >> pp.txt
+head pp.txt
+echo "Hola mundo" > pp.txt
+head pp.txt
+clear
+echo $HISTFILE
+ls -la /home/dsc/.history
+ll $HISTFILE
+touch folder1
+touch folder2
+touch folder1/one
+rm folder1
+touch folder1/one
+touch folder1
+rm folder1
+rm folder2
+touch folder1/one
+mkdir folder1/one
+ls folder1
+mkdir -p folder1/one
+mkdir folder2
+rsync -avz folder1/one folder2
+ls folder2
+rm folder1 folder 2
+rm folder1/ folder2/
+rm -r folder1/ folder2/
+cp /home/dsc/.history history_20201117.txt
+ls git
+git status
+pwd
+cd git
+git status
+ls git
+pwd
+cp /home/dsc/.history history_20201117.txt
+ls git
+git push origin master
+ll
+git status
+cd
+cd /home
+ls -l
+ls
+cd dsc/Data/shell
+ll
+wc Text_example.txt
+echo -n "hola2" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -l
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv | wc
+cd 
+cd Data/opentraveldata
+tail -c -1k optd_aircraft.csv | wc
+cd
+cd Data/opentraveldata
+ls
+ll
+ls -lrt | head -n 1
+ls -lrt | tail -n 1
+ls -sSl
+ls -sSlr
+cd
+ls -sSlr /Home/Data/opentraveldata | tail -n 1 > largest_file.txt
+ls -sSlr /Data/opentraveldata | tail -n 1 > largest_file.txt
+ls -sSlr Data/opentraveldata | tail -n 1 > largest_file.txt
+ls
+head -n 5 Data/shell/Finn.txt | wc -w
+cat -n 3 Data/shell/Finn.txt | head -n 3
+ls
+which Text_example.txt
+cat Home/.history | grep rsync
+cat /.history |grep rsync
+cat .history | grep rsync
+cd git
+ls -lrt
+cp $HISTFILE Home/git/history_20201117.txt
+ls -lrt
+pwd
+cp $HISTLIFE history_20201117.txt
+ls -lrt
+cp home/git/history_20201117.txt
+pwd
+cp $HISTLIFE home/dsc/git/history_20201117.txt
+cp --help
+ls
+git status
+cp $HISTLIFE history_20201117.txt
+ls -lrt
+cp /home/dsc/.history finalhistory_20201117.txt
